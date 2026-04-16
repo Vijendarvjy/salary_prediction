@@ -13,7 +13,7 @@ except FileNotFoundError:
 
 # Load original data to recreate LabelEncoder mappings
 try:
-    original_df = pd.read_csv('/content/Salary_Data.csv')
+    original_df = pd.read_csv('Salary_Data.csv')
 except FileNotFoundError:
     st.error("Original data file 'Salary_Data.csv' not found. Cannot create label encoder mappings.")
     st.stop()
