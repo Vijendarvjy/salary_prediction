@@ -87,7 +87,7 @@ if st.sidebar.button("Predict Salary"):
     st.markdown(f"""
     <div style='background-color: {color_code}; padding: 20px; border-radius: 10px; text-align: center; border: 2px solid {color_text};'>
         <p style='font-size: 1.2em; color: {color_text}; margin-bottom: 5px;'>Estimated Annual Salary:</p>
-        <h2 style='font-size: 2.5em; color: {color_text}; margin-top: 0;'>${predicted_salary:,.2f}</h2>
+        <h2 style='font-size: 2.5em; color: {color_text}; margin-top: 0;'>INR{predicted_salary:,.2f}</h2>
     </div>
     """, unsafe_allow_html=True)
 
